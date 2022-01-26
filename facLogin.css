@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    display: grid;
+    height: 100vh;
+    place-items: center;
+   background: #eaeeef;
+}
+/*Main body*/
+.container{
+    border: 2px solid rgb(90, 3, 90);
+    width: 300px;
+    background-color: #fff;
+    border-radius: 10px;
+   
+    box-shadow: 8px 8px 15px rgba(0,0,0,0.5),
+    -8px -8px 15px rgba(0,0,0,0.5); 
+}
+/*Heading of form*/
+h2{
+    position: relative;
+    font-size: 30px;
+    font-weight: 600;
+    color: rgb(90, 3, 90);
+    text-align: center;
+    margin-top: 14px;
+}
+/*Form layout*/
+form{
+   padding: 30px 20px;
+}
+/*design for input values from user*/
+.inputbox{
+    height: 45px;
+    background: #fff;
+   margin-bottom: 40px;
+    position: relative;
+   
+}
+input{
+    height: 100%;
+    width: 100%;
+outline: none;
+border-radius: 10px;
+border: 2px solid lightgrey;
+font-size: 16px;
+transition: all 0.3s ease;
+}
+input::placeholder{
+    font-size: 12px;
+    padding: 4px;
+}
+input:focus{
+    border-color: rgb(90, 3, 90);
+}
+/*design for login button*/
+.inputfield{
+  margin-top: 50px;
+  margin-left: 38%;
+    height: 28px;
+    width: 60px;
+    padding-left: 4px;
+    margin-bottom: 4px;
+}
+.inputfield input{ 
+padding-left:0;
+background-color: rgb(90, 3, 90);
+ border: 16px none;
+ cursor: pointer;
+ color: white;
+ font-size: 12px;
+ border: none;
+}
+.inputfield input:hover{
+    background-color: rgba(105, 5, 105, 0.89);
+}
+label{
+    font-size: 17px;
+    padding-left: 4px;
+    color: rgb(90, 3, 90);
+    font-weight: 500;
+    margin-bottom: 4px;
+}
+/*design for forget password*/
+.fpass{
+   margin-top: 4px;
+   padding-left: 6px;
+}
+.fpass a{
+    font-size: 12px;
+    color: rgb(90, 3, 90);
+    text-decoration: none;
+    font-weight: 500;
+}
+/*design for extra registration text*/
+.text{
+    font-size: 14px;
+    font-weight: 200;
+    text-align: center;
+    color: black;
+    padding: 8px;
+    margin-top: 3px;
+}
+.text a{
+    color: rgb(90, 3, 90);
+    font-size: 14px;
+    padding: 6px;
+    margin-top: 3px;
+    text-decoration: none;
+}
+.error{
+    color: red;
+    font-size: 11px;
+    font-style: italic;
+}

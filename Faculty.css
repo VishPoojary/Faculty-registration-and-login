@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+   display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background-color: #eaeeef; 
+}
+/*Main body*/
+.container{
+    position: relative;
+   width: 500px;
+    background-color: #fff;
+    box-shadow: 8px 8px 15px rgba(0,0,0,0.5),
+    -8px -8px 15px rgba(0,0,0,0.5);
+    padding: 34px;
+    border-radius: 10px;
+    border: 3px solid rgb(90, 3, 90);
+}
+/*Heading of form*/
+h2{
+    position: relative;
+    font-size: 24px;
+    font-weight: 600;
+    color: rgb(90, 3, 90);
+    text-align: center;
+}
+/*Form layout*/
+form{
+    margin-top: 26px;
+}
+/*design for input values from user*/
+.inputbox{
+    height: 40px;
+    margin: 41px 0px;
+    margin-bottom: 49px;
+}
+.inputbox input{
+    height: 100%;
+    width: 100%;
+    padding: 0 20px;
+    border-bottom-width: 2.5px;
+    border-radius: 10px;
+    border: 2px solid #c7bece;
+    font-size: 17px;
+    font-weight: 400;
+    transition: all 0.3s ease;
+    
+}
+input::placeholder{
+    font-size: 16px;
+}
+.inputbox label{
+    font-size: 24px;
+    font-weight: 500;
+    color: rgb(90, 3, 90);
+    padding-left: 6px;
+}
+/*css for drop-down list*/
+select{
+    height: 100%;
+    width: 100%;
+    padding: 0 20px;
+    border-bottom-width: 2.5px;
+    border-radius: 10px;
+    border: 2px solid #c7bece;
+    font-size: 17px;
+    font-weight: 400;
+    transition: all 0.3s ease;
+    color: rgba(51, 51, 51, 0.692); 
+}
+option{
+    background-color: rgb(90, 3, 90);
+    color: #fff;
+    font-size: 24px;
+}
+/*design for register button*/
+.inputfield input{
+   
+  color: #fff;
+  background-color: rgb(90, 3, 90);
+  width: 100px;
+  height: 50px;
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  margin-left: 40%;
+  padding: 8px;
+  margin-top: 20px ;
+}
+.inputfield input:hover{
+    background-color: rgba(105, 5, 105, 0.89);
+}
+.inputbox .error{
+    color: red;
+    font-size: 13px;
+    padding-left: 2px;
+    font-style: italic;
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="Faculty.css">
+   <title>Faculty</title>
+</head>
+
+<body>
+   <div class="container">
+      <h2>Faculty Registration</h2>
+      <form id="facregistration" action="">
+
+         <div class="inputbox">
+            <label >Faculty Name</label>
+            <input type="text" placeholder='Faculty Name' name="fname" id="name">
+         </div>
+         <div class="inputbox">
+            <label >Institute Name</label>
+            <input type="text" placeholder="Institute Name" name="institute" id="institute">
+         </div>
+         <div class="inputbox">
+            <label > Branch Name</label>
+            <select name="branch" id="branch">
+               <option value="0" selected='' disabled=''>Select your Branch</option>
+               <option value="1">Information Technology</option>
+               <option value="2">Computer Science</option>
+               <option value="3">Electronics and Telecommunication</option>
+               <option value="4">Electrical Engineering</option>
+               <option value="5">Civil Engineering</option>
+               <option value="5">Mechanical Engineering</option>
+             
+            </select>
+         </div>
+         <div class="inputbox">
+            <label > Department</label>
+            <input type="text" placeholder="Department"  name="department" id="department">
+         </div>
+         <div class="inputbox">
+            <label > Email Id</label>
+            <input type="email" placeholder="Email@.com" name="email" id="email">
+         </div>
+         <div class="inputbox">
+            <label >Password</label>
+            <input type="password" placeholder="Password" name="password" id="password">
+         </div>
+         <div class="inputbox">
+            <label >Contact No</label>
+            <input type="text" placeholder="Contact No." name="contact" id="contact">
+         </div>
+         <div class="inputfield">
+            <input type="submit" value="Register">
+         </div>
+      </form>   
+   </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> 
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/jquery.validate.min.js"></script>
+   <script src="Faculty.js"></script>
+</body>
+
+</html>
